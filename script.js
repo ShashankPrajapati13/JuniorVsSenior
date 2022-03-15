@@ -17,6 +17,7 @@ timeline
     ease: Expo.InOut,
     slutter: 1,
 })
+
 .from(".b",{
     duration:1,
     opacity: 0,
@@ -30,6 +31,13 @@ timeline
     x:100,
     ease: Expo.InOut,
     slutter: 1,
+})
+.from(".f",{
+  duration:1,
+  opacity: 0,
+  y:-50,
+  ease: Expo.InOut,
+  slutter: 1,
 })
 .from(".e",{
     duration:1,
