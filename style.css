@@ -47,8 +47,8 @@ html {
   position: relative;
 }
 #logo img {
-  height: 3vw;
-  width: 3vw;
+  height: 2.5vw;
+  width: 2.5vw;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -63,15 +63,15 @@ html {
   align-items: center;
 }
 #circle {
-  width: 18px;
-  height: 18px;
+  width: 13px;
+  height: 13px;
   border-radius: 50%;
   border: 1px solid rgb(182, 182, 182);
   position: relative;
 }
 .dot {
-  width: 8px;
-  height: 8px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
   background-color: rgb(182, 182, 182);
 }
@@ -93,10 +93,11 @@ html {
   transform: rotate(-90deg);
 }
 #txt i {
-  font-size: 28px;
+  font-size: 22px;
+  font-weight: 400;
 }
 #txt h3 {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   letter-spacing: 1px;
 }
@@ -170,6 +171,7 @@ html {
 #mtop h3 {
   display: inline-block;
   margin-left: 20px;
+  font-size: 14px;
 }
 #mtop img {
   height: 4vw;
@@ -179,12 +181,17 @@ html {
 #mmid {
   margin: 60px 20px;
 }
+#mmid h2 {
+  font-size: 19px;
+}
 #mmid p {
   margin: 30px 0px;
+  font-size: 13px;
+  font-weight: 500;
 }
 #mmid button {
-  height: 2.5vw;
-  width: 9vw;
+  height: 2.3vw;
+  width: 8.2vw;
   background-color: transparent;
   border: 2px solid rgb(182, 182, 182);
   border-radius: 50px;
@@ -197,7 +204,7 @@ html {
   color: rgb(182, 182, 182);
 }
 #mmid button:hover {
-  font-size: 1.2vw;
+  font-size: 1.1vw;
   color: rgba(172, 255, 47, 0.795);
 }
 #rm {
@@ -205,10 +212,10 @@ html {
   top: 26%;
   right: 17%;
   transform: translate(-50%, -50%);
-  font-size: 1.5vw;
+  font-size: 1.4vw;
 }
 #rm span {
-  font-size: 4vw;
+  font-size: 3.8vw;
   position: absolute;
   top: 90%;
   right: 20%;
@@ -216,6 +223,12 @@ html {
 }
 #bleft {
   margin-left: 16vw;
+}
+#bottom h2 {
+  font-size: 1.35vw;
+}
+#bottom h3 {
+  font-size: 1vw;
 }
 #bmid {
   margin-left: 6vw;
@@ -247,11 +260,11 @@ html {
 }
 video {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 180%;
-  height: 180%;
+  width: 190%;
+  height: 190%;
   object-fit: covers;
 }
 
@@ -278,6 +291,9 @@ video {
 }
 #varient i {
   font-size: 24px;
+}
+#varient h3 {
+  font-size: 1.1vw;
 }
 #varient .dot {
   height: 3vw;
